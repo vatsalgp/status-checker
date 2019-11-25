@@ -31,3 +31,8 @@ All production files are for x86 architecture
 3. To run continuously with interval of 6 seconds:
 
     ./ main true 6
+    
+## Common Error Solutions:
+
+1. Try downloading as zip instead of cloning.
+2. Try clearing the links.txt file, saving it, and then typing the links by hand (not pasting).
