@@ -1,7 +1,4 @@
-#Links
-#To be seperated by a new line
-#
 http://google.com
 http://github.com
-http://golang.org
 http://amazon.com
+http://golang.org
