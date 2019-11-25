@@ -6,6 +6,7 @@ To check the status of a specific website, add its domain to the links.txt file 
 
 ## Production Files
 windows : main.exe
+
 linux : main
 
 ## Steps:
