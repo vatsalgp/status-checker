@@ -27,9 +27,10 @@ func readFromDrive(filename string) []string{
 		os.Exit(1);
 	}
 
-	lines := strings.Split(string(bs), "\n")
+	lines := strings.Split(strings.TrimSpace(string(bs)), "\n")
 	for i,line := range lines {
-		if line[0]=='#' {
+		line = strings.TrimSpace(line)
+		if (line[0]=='#' || !strings.Contains(line, "http://" ) ){
 			lines = append(lines[:i],lines[i+1:]...)
 		}
 	}
