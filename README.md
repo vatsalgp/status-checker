@@ -21,10 +21,13 @@ All production files are for x86 architecture
 ## Examples:
 
 1. To run once at default:
+
     ./main
     
 2. To run continuously:
+
     ./ main true
     
 3. To run continuously with interval of 6 seconds:
+
     ./ main true 6
