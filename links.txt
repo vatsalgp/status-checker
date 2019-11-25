@@ -1,4 +1,1 @@
-http://google.com
-http://github.com
-http://amazon.com
 http://golang.org
