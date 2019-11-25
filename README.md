@@ -9,6 +9,8 @@ windows : main.exe
 
 linux : main
 
+All production files are for x86 architecture
+
 ## Steps:
 1. Open the working directory in the terminal and run the production file.
 2. The value after the command determines whether to keep checking the website statues continuously.
